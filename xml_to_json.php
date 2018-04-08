@@ -18,11 +18,5 @@ $xml = simplexml_load_string($xmlFile);
 $json = json_encode ($xml);
 
 echo $json;
-// echo $json["entry"][0][author][name];
-// echo "<br>";
-// echo $json["entry"][0][title];
-// var_dump($json["entry"][0]);
-
-// print_r($json["entry"][0][title]);
 
 ?>
